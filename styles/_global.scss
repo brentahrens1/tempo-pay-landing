@@ -1,0 +1,32 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "plain-reg";
+  src: url("/fonts/plain-reg.woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+.headline {
+  font-family: "plain-reg";
+}
+
+p {
+  font-family: "plain-reg";
+}
+
+@import './landing';
