@@ -22,7 +22,7 @@ export default function Home() {
           <p className='headline'>Healthcare at your rhythm</p>
           <p>Simplify healthcare spending with flexible, no-interest payments at your pace</p>
           <div className='tempo-pay--cta'>
-            <p>Full website coming soon <a href="mailto:contact@tempopay.com" target="_blank" rel="noreferrer">contact@tempopay.com</a></p>
+            <p>Full website coming soon</p>
             <button><a href="mailto:contact@tempopay.com" target="_blank" rel="noreferrer">Contact</a></button>
           </div>
         </div>
