@@ -64,11 +64,11 @@
             object-fit: cover;
 
             @media only screen and (min-width: 1500px) {
-                min-height: 1200px;
+                min-height: 1000px;
             }
 
             @media only screen and (max-width: 500px) {
-                min-height: 100%;
+                min-height: 100% !important;
             }
         }
     }
@@ -111,12 +111,28 @@
                 width: 70%;
             }
 
+            p {
+                font-size: 24px;
+                line-height: 28px;
+                color: #ffffff;
+                margin: 0;
+
+                @media only screen and (max-width: 750px) {
+                    font-size: 18px;
+                    line-height: 20px;
+                }
+            }
+
             .headline {
                 font-size: 96px;
                 line-height: 90px;
                 color: #ffffff;
                 margin: 0;
                 margin-bottom: 2rem;
+
+                &:nth-child(1) {
+                    margin-bottom: 0;
+                }
 
                 @media only screen and (max-width: 750px) {
                     font-size: 32px;
@@ -127,18 +143,6 @@
                 @media only screen and (max-height: 750px) and (min-width: 500px) {
                     font-size: 52px;
                     line-height: 50px;
-                }
-            }
-
-            p {
-                font-size: 24px;
-                line-height: 28px;
-                color: #ffffff;
-                margin: 0;
-
-                @media only screen and (max-width: 750px) {
-                    font-size: 18px;
-                    line-height: 20px;
                 }
             }
 

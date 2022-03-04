@@ -19,10 +19,11 @@ export default function Home() {
       </header>
       <section>
         <div className='tempo-pay--content'>
-          <p className='headline'>Healthcare at your rhythm</p>
-          <p>Simplify healthcare spending with flexible, no-interest payments at your pace</p>
+          <p className='headline'>Healthcare at</p>
+          <p className='headline'>your rhythm</p>
+          <p>TempoPay is a consumer engagement tool to compliment your benefit offering and drive member spend towards healthier actions and preferred providers.</p>
           <div className='tempo-pay--cta'>
-            <p>Full website coming soon</p>
+            <p>Help your employees manage their physical and financial wellness.</p>
             <button><a href="mailto:contact@tempopay.com" target="_blank" rel="noreferrer">Contact</a></button>
           </div>
         </div>
